@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h5, h6{
+    margin: 0;
+    font-size: 16px;
+}
+
+/* /////////////////   Summer card     ///////////////////// */
+
+.summer{
+    margin: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/summer-1.gif');
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.summer-card {
+    background-color: #10022a;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.363) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    outline: 5px solid #1c0743;
+    outline-offset: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer
+}
+
+.summer-card:hover {
+    transform: scale(1.05);
+    box-shadow:
+      0 0 15px 5px rgba(255, 212, 72, 0.6),
+      rgba(255, 255, 255, 0.5) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+.summer-card h3, 
+.summer-card h4, 
+.summer-card h5, 
+.summer-card h6 {
+    margin: 5px 0;
+    color: transparent;
+    background: linear-gradient(90deg, #f6d365, #fda085);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.summer-image{
+    max-width: 60px;
+    width: 100%;
+}
+
+
+
+/* /////////////////   Summer card     ///////////////////// */
+
+.summer{
+    margin: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/summer-1.gif');
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.summer-card {
+    background-color: #10022a;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.363) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    outline: 5px solid #1c0743;
+    outline-offset: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer
+}
+
+.summer-card:hover {
+    transform: scale(1.05);
+    box-shadow:
+      0 0 15px 5px rgba(255, 212, 72, 0.6),
+      rgba(255, 255, 255, 0.5) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+.summer-card h3, 
+.summer-card h4, 
+.summer-card h5, 
+.summer-card h6 {
+    margin: 5px 0;
+    color: transparent;
+    background: linear-gradient(90deg, #f6d365, #fda085);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.summer-image{
+    max-width: 60px;
+    width: 100%;
+}
+
+
+/* /////////////////   Winter card     ///////////////////// */
+
+.winter {
+    margin: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/winter.gif'); 
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.winter-card {
+    background-color: #0a1b2a;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: rgba(200, 230, 255, 0.3) 0px 30px 60px -12px inset, 
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    outline: 5px solid #0f3c5c;
+    outline-offset: 5px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+    transform-style: preserve-3d; 
+}
+
+.winter-card:hover {
+    transform: rotateY(8deg) rotateX(4deg) scale(1.05);
+    box-shadow:0 20px 30px rgba(120, 200, 255, 0.4),inset 0 0 25px rgba(200, 230, 255, 0.3);
+}
+
+.winter-card h3, 
+.winter-card h4, 
+.winter-card h5, 
+.winter-card h6 {
+    margin: 5px 0;
+    color: transparent;
+    background: linear-gradient(90deg, #ffffff, #099be4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.winter-image {
+    max-width: 60px;
+    width: 100%;
+}
+
+/* /////////////////   Spring card     ///////////////////// */
+
+.spring {
+    margin: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/spring-1.gif'); 
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.spring-card {
+    background-color: #015100; 
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: rgba(77, 239, 18, 0.534) 0px 30px 60px -12px inset, 
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    outline: 5px solid #057630; 
+    outline-offset: 5px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+.spring-card:hover {
+    transform: rotateY(12deg) rotateX(6deg) scale(1.05);
+    box-shadow:
+      0 20px 30px rgba(3, 175, 35, 0.5),
+      inset 0 0 25px rgba(46, 182, 28, 0.3);
+}
+
+.spring-card h3, 
+.spring-card h4, 
+.spring-card h5, 
+.spring-card h6 {
+    margin: 5px 0;
+    color: transparent;
+    background: linear-gradient(90deg, #ffb6c1, #8b0347); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.spring-image {
+    max-width: 60px;
+    width: 100%;
+}
+
+/* /////////////////   Autumn card     ///////////////////// */
+
+.autumn {
+    margin: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/autumn-1.gif'); 
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.autumn-card {
+    background-color: #3b1e0b; 
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: rgba(255, 200, 100, 0.3) 0px 30px 60px -12px inset, 
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    outline: 5px solid #d2691e; 
+    outline-offset: 5px;
+    transition: transform 0.6s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+.autumn-card:hover {
+    animation: autumn-sway 0.8s ease-in-out forwards;
+    box-shadow:
+      0 20px 40px rgba(255, 160, 60, 0.5),
+      inset 0 0 25px rgba(255, 200, 120, 0.3);
+}
+
+@keyframes autumn-sway {
+    0% { transform: rotateY(0deg) rotateX(0deg) scale(1); }
+    25% { transform: rotateY(8deg) rotateX(4deg) scale(1.05); }
+    50% { transform: rotateY(-8deg) rotateX(-4deg) scale(1.05); }
+    75% { transform: rotateY(4deg) rotateX(2deg) scale(1.05); }
+    100% { transform: rotateY(0deg) rotateX(0deg) scale(1.05); }
+}
+
+.autumn-card h3, 
+.autumn-card h4, 
+.autumn-card h5, 
+.autumn-card h6 {
+    margin: 5px 0;
+    color: transparent;
+    background: linear-gradient(90deg, #ecbe7f, #c86400); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.autumn-image {
+    max-width: 60px;
+    width: 100%;
+}
+
+
+
+
+/*//////////////////// Monsoon card ////////////////*/
+
+.monsoon {
+    margin: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/monsoon-1.gif'); 
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.monsoon-card {
+    background-color: rgba(0, 32, 49, 0.992); 
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow:
+        0 0 20px 5px rgba(191, 197, 201, 0.6),
+        inset 0 0 40px rgba(10, 40, 60, 0.8);
+    outline: 5px solid #0a92ff;
+    outline-offset: 5px;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.monsoon-card:hover {
+    animation: monsoon-ripple 1.2s ease infinite;
+    transform: scale(1.07) rotateZ(2deg);
+    box-shadow:
+      0 0 30px 10px rgba(0, 200, 255, 0.8),
+      inset 0 0 50px rgba(10, 50, 80, 0.9);
+}
+
+@keyframes monsoon-ripple {
+    0%, 100% {
+        box-shadow:
+          0 0 30px 10px rgba(0, 200, 255, 0.8),
+          inset 0 0 50px rgba(10, 50, 80, 0.9);
+    }
+    50% {
+        box-shadow:
+          0 0 45px 15px rgba(0, 150, 255, 1),
+          inset 0 0 70px rgba(10, 60, 100, 1);
+    }
+}
+
+.monsoon-card h3,
+.monsoon-card h4,
+.monsoon-card h5,
+.monsoon-card h6 {
+    margin: 5px 0;
+    color: transparent;
+    background: linear-gradient(90deg, #5f5d5d, #ffffff); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+  /* /////////    error   ////////////// */
+
+  .default-card {
+    margin: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: #222; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .default-card-inner {
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 30px rgba(255,255,255,0.2);
+  }
+  
+  .default-card-inner h3 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  .default-card-inner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .default-card-inner img {
+    margin-top: 10px;
+    max-width: 150px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+
+  @media (max-width: 400px) {
+    .summer-card,
+    .winter-card,
+    .spring-card,
+    .autumn-card,
+    .monsoon-card,
+    .default-card-inner {
+      padding: 15px;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    h4 {
+      font-size: 1rem;
+    }
+  
+    h5 {
+      font-size: 0.9rem;
+    }
+  
+    h6 {
+      font-size: 0.7rem;
+    }
+  }
+
+
+
+
+
